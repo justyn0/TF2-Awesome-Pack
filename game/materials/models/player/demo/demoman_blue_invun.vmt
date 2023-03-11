@@ -1,0 +1,10 @@
+"Patch"
+{
+	include "materials\models\player\demo\demoman_red_invun.vmt"
+	
+	insert
+	{
+		"$baseTexture" "models\player\demo\demoman_blue_invun"
+		"$envmap" "effects/cubemapper"
+	}
+}
