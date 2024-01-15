@@ -1,0 +1,19 @@
+# adding "_gitblock" into the name of any file or folder will get ignored from the repo
+*_gitblock*
+
+# /////// WORK FILES THATS NOT NEEDED ///////
+
+#*meshmaps
+#*mesh maps
+#/substance/
+
+*.autosave
+*.obj
+*.mtl
+*.assbin
+*.spp
+*.blend
+*.blend1
+*_uv*
+*work/
+game/
