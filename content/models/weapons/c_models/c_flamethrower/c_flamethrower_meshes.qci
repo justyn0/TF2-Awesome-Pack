@@ -1,0 +1,21 @@
+$definevariable dmxFile "parts/dmx/c_flamethrower.dmx"
+$definevariable  lod_01 "parts/dmx/c_flamethrower_lod1.dmx"
+$definevariable  lod_02 "parts/dmx/c_flamethrower_lod2.dmx"
+$definevariable  lod_03 "parts/dmx/c_flamethrower_lod3.dmx"
+$definevariable  lod_04 "parts/dmx/c_flamethrower_lod4.dmx"
+
+$jigglebone "weapon_bone_hose" 
+{
+	has_base_spring 
+	{
+		base_mass 0
+		stiffness 150
+		damping 5
+		left_constraint -1.5 1.5
+		left_friction 0
+		up_constraint -1.5 1.5
+		up_friction 0
+		forward_constraint -1.5 1.5
+		forward_friction 0
+	}
+}

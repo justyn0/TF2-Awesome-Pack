@@ -17,3 +17,5 @@
 *_uv*
 *work/
 game/
+obsolete/
+*.sbs
